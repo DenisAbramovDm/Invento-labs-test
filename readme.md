@@ -1,6 +1,8 @@
 Requirements: java 17, PostgreSql (with databace *postingsdb*, user: *admin*, psw: *admin*;
-user and password can be another and changed in *application.properties*; 
+user and password can be another and changed in *Postings/src/main/resources/application.properties*; 
 another settings like database url and names also can be changed in that file)
+.csv files are in Postings/src/main/resources/. 
+I have changed postings.scv a little bit to allow filtered query show some data.
 ## Linux
 1. open this folder in terminal
 2. ```./mvnw clean install```
