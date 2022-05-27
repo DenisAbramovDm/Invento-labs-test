@@ -1,7 +1,7 @@
-## Linux
 Requirements: java 17, PostgreSql (with databace *postingsdb*, user: *admin*, psw: *admin*;
 user and password can be another and changed in *application.properties*; 
 another settings like database url and names also can be changed in that file)
+## Linux
 1. open this folder in terminal
 2. ```./mvnw clean install```
 3. Run first task: ```java -jar IpConverter/target/IpConverter-0.1.jar```
