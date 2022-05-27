@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Tendency</artifactId>
+    <artifactId>IpConverter</artifactId>
+
     <build>
         <plugins>
             <plugin>
@@ -20,7 +21,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.denisabramov.Tendency</mainClass>
+                            <mainClass>com.denisabramov.IpConverter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

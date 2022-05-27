@@ -8,10 +8,11 @@ import java.util.Scanner;
 public class Tendency {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter n (values more than 3000 may cause very long calculating time)\n");
+        System.out.print("Enter n (values more than 5000 may cause very long calculating time)\n");
         int n = scanner.nextInt();
-        System.out.println("Enter number of decimal places");
-        int scale = scanner.nextInt();
+     //   System.out.println("Enter number of decimal places");
+      //  int scale = scanner.nextInt();
+        int scale = 10;
         System.out.println(un(n, scale));
     }
 
