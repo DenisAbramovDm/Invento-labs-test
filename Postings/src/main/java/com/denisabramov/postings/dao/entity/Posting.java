@@ -33,8 +33,8 @@ public class Posting {
     private int quantity;
     @CsvBindByName(column = "BUn")
     private String unit;
-    @CsvBindByName(column = "Amount LC", capture = ".([^ ]+).*")
-    @CsvNumber("#.#")
+    @CsvBindByName(column = "Amount LC", capture = ".([^ ]+).*", locale = "ru-RU")
+    @CsvNumber(value = "#,#")
     private double amount;
     @CsvBindByName(column = "Crcy")
     private String currency;
